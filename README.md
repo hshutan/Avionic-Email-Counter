@@ -4,7 +4,7 @@ A functional art project consisting of a Boeing (Teledyne Controls P/N 65003-005
 
 The number of unread emails are shown on the dial indicator, 0 through a max of 10. The number of total email items in an inbox are shown on the 3 digit 7 segment display. The example image below shows 8 unread emails and 982 total emails.
 
-![Display](https://s28.postimg.org/5idq9htt9/TGT.png)
+![Indicator Dial](https://raw.githubusercontent.com/hshutan/Avionic-Email-Counter/master/TGT-OutlookSerial/tgtdial.jpg)
 
 This project has two components. The first is the avionics display itself, using the original stepper motor and original shift register driven 7 segment displays.
 The OEM stepper motor and shift registers are driven by an Arduino listening for serial commands, causing adjustments to the dial indicator (servo) and 7 segment displays.
